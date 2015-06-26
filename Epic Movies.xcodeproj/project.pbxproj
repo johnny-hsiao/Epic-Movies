@@ -15,6 +15,11 @@
 		DAC4668B1B3CCF2700A7B7A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC4668A1B3CCF2700A7B7A2 /* Images.xcassets */; };
 		DAC4668E1B3CCF2700A7B7A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC4668C1B3CCF2700A7B7A2 /* LaunchScreen.xib */; };
 		DAC4669A1B3CCF2700A7B7A2 /* Epic_MoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC466991B3CCF2700A7B7A2 /* Epic_MoviesTests.m */; };
+		DAC466D41B3CD30200A7B7A2 /* epicmovies.json in Resources */ = {isa = PBXBuildFile; fileRef = DAC466D31B3CD30200A7B7A2 /* epicmovies.json */; };
+		DAC466D71B3CE53000A7B7A2 /* MovieObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC466D61B3CE53000A7B7A2 /* MovieObject.m */; };
+		DAC466DA1B3D1D0B00A7B7A2 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC466D91B3D1D0B00A7B7A2 /* APIManager.m */; };
+		DAC466ED1B3DA56100A7B7A2 /* moviecamera76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC466EB1B3DA56100A7B7A2 /* moviecamera76x76.png */; };
+		DAC466EE1B3DA56100A7B7A2 /* moviecamera152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC466EC1B3DA56100A7B7A2 /* moviecamera152x152.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,13 @@
 		DAC466931B3CCF2700A7B7A2 /* Epic MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Epic MoviesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC466981B3CCF2700A7B7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAC466991B3CCF2700A7B7A2 /* Epic_MoviesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Epic_MoviesTests.m; sourceTree = "<group>"; };
+		DAC466D31B3CD30200A7B7A2 /* epicmovies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = epicmovies.json; sourceTree = "<group>"; };
+		DAC466D51B3CE53000A7B7A2 /* MovieObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieObject.h; sourceTree = "<group>"; };
+		DAC466D61B3CE53000A7B7A2 /* MovieObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieObject.m; sourceTree = "<group>"; };
+		DAC466D81B3D1D0B00A7B7A2 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		DAC466D91B3D1D0B00A7B7A2 /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		DAC466EB1B3DA56100A7B7A2 /* moviecamera76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moviecamera76x76.png; sourceTree = "<group>"; };
+		DAC466EC1B3DA56100A7B7A2 /* moviecamera152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moviecamera152x152.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +96,13 @@
 		DAC466791B3CCF2700A7B7A2 /* Epic Movies */ = {
 			isa = PBXGroup;
 			children = (
+				DAC466E41B3D9D9700A7B7A2 /* App Data */,
+				DAC466EF1B3DB38400A7B7A2 /* App Images */,
+				DAC466DB1B3D1E8D00A7B7A2 /* APIManager */,
 				DAC4667E1B3CCF2700A7B7A2 /* AppDelegate.h */,
 				DAC4667F1B3CCF2700A7B7A2 /* AppDelegate.m */,
+				DAC466D51B3CE53000A7B7A2 /* MovieObject.h */,
+				DAC466D61B3CE53000A7B7A2 /* MovieObject.m */,
 				DAC466811B3CCF2700A7B7A2 /* MasterViewController.h */,
 				DAC466821B3CCF2700A7B7A2 /* MasterViewController.m */,
 				DAC466841B3CCF2700A7B7A2 /* DetailViewController.h */,
@@ -122,6 +139,32 @@
 				DAC466981B3CCF2700A7B7A2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAC466DB1B3D1E8D00A7B7A2 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				DAC466D81B3D1D0B00A7B7A2 /* APIManager.h */,
+				DAC466D91B3D1D0B00A7B7A2 /* APIManager.m */,
+			);
+			name = APIManager;
+			sourceTree = "<group>";
+		};
+		DAC466E41B3D9D9700A7B7A2 /* App Data */ = {
+			isa = PBXGroup;
+			children = (
+				DAC466D31B3CD30200A7B7A2 /* epicmovies.json */,
+			);
+			name = "App Data";
+			sourceTree = "<group>";
+		};
+		DAC466EF1B3DB38400A7B7A2 /* App Images */ = {
+			isa = PBXGroup;
+			children = (
+				DAC466EB1B3DA56100A7B7A2 /* moviecamera76x76.png */,
+				DAC466EC1B3DA56100A7B7A2 /* moviecamera152x152.png */,
+			);
+			name = "App Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,8 +248,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAC466891B3CCF2700A7B7A2 /* Main.storyboard in Resources */,
+				DAC466ED1B3DA56100A7B7A2 /* moviecamera76x76.png in Resources */,
+				DAC466EE1B3DA56100A7B7A2 /* moviecamera152x152.png in Resources */,
 				DAC4668E1B3CCF2700A7B7A2 /* LaunchScreen.xib in Resources */,
 				DAC4668B1B3CCF2700A7B7A2 /* Images.xcassets in Resources */,
+				DAC466D41B3CD30200A7B7A2 /* epicmovies.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC466D71B3CE53000A7B7A2 /* MovieObject.m in Sources */,
 				DAC466801B3CCF2700A7B7A2 /* AppDelegate.m in Sources */,
+				DAC466DA1B3D1D0B00A7B7A2 /* APIManager.m in Sources */,
 				DAC466831B3CCF2700A7B7A2 /* MasterViewController.m in Sources */,
 				DAC4667D1B3CCF2700A7B7A2 /* main.m in Sources */,
 				DAC466861B3CCF2700A7B7A2 /* DetailViewController.m in Sources */,

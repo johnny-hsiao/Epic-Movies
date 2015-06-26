@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MovieObject.h"
 
 @class DetailViewController;
 
 @interface MasterViewController : UITableViewController
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
-
 
 @end
 

@@ -7,11 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MovieObject.h"
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController 
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) MovieObject* detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (weak, nonatomic) IBOutlet UITextView *directorTV;
+@property (weak, nonatomic) IBOutlet UITextView *genreTV;
+@property (weak, nonatomic) IBOutlet UITextView *plotSummaryTV;
+
+//- (id) initWithData:(MovieObject*) movieData;
+@property (weak, nonatomic) IBOutlet UIImageView *posterImage;
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end
 

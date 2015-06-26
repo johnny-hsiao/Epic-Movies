@@ -1,0 +1,150 @@
+{
+	"items":
+	[
+     
+        {
+            "movie_name": "The Shawshank Redemption",
+            "year_released": "1994",
+            "director": "Frank Darabont",
+            "url": {
+					"imdb": "http://www.imdb.com/title/tt0111161/?ref_=nv_sr_1",
+					"rottentomatoes": "http://www.rottentomatoes.com/m/shawshank_redemption/?search=shawsh",
+					"wiki": "https://en.wikipedia.org/wiki/The_Shawshank_Redemption",
+					},
+            "genre": ["Crime", "Drama"],
+            "plot_summary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+            "movie_poster_url": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
+        },
+        {
+            "movie_name": "Braveheart",
+            "year_released": "1995",
+            "director": "Mel Gibson",
+            "url": {
+					"imdb": "http://www.imdb.com/title/tt0112573/?ref_=nv_sr_1",
+					"rottentomatoes": "http://www.rottentomatoes.com/m/1065684-braveheart/?search=bravehe",
+					"wiki": "https://en.wikipedia.org/wiki/Braveheart",
+					},
+            "genre": ["Action", "Biography", "Drama", "History", "War"],
+            "plot_summary": "When his secret bride is executed for assaulting an English soldier who tried to rape her, William Wallace begins a revolt and leads Scottish warriors against the cruel English tyrant who rules Scotland with an iron fist.",
+            "movie_poster_url": "https://upload.wikimedia.org/wikipedia/en/5/55/Braveheart_imp.jpg",
+        },
+        {
+            
+			"movie_name": "Gladiator",
+			"year_released": "2000",
+			"director": "Ridley Scott",
+			"url": {
+					"imdb": "http://www.imdb.com/title/tt0172495/?ref_=nv_sr_1",
+					"rottentomatoes": "http://www.rottentomatoes.com/m/gladiator/",
+					"wiki": "https://en.wikipedia.org/wiki/Gladiator_(2000_film)",
+					},
+			"genre": ["Action", "Drama"],
+			"plot_summary": "When a Roman general is betrayed and his family murdered by an emperor's corrupt son, he comes to Rome as a gladiator to seek revenge.",
+			"movie_poster_url": "https://upload.wikimedia.org/wikipedia/en/8/8d/Gladiator_ver1.jpg",
+		},
+        {
+            "movie_name": "Training Day",
+            "year_released": "2001",
+            "director": "Antoine Fuqua",
+            "url": {
+					"imdb": "http://www.imdb.com/title/tt0139654/",
+					"rottentomatoes": "http://www.rottentomatoes.com/m/training_day/?search=training",
+					"wiki": "https://en.wikipedia.org/wiki/Training_Day",
+					},
+            "genre": ["Crime", "Drama", "Thriller"],
+            "plot_summary": "On his first day on the job as a Los Angeles narcotics officer, a rookie cop goes on a 24-hour training course with a rogue detective who isn't what he appears.",
+            "movie_poster_url": "https://upload.wikimedia.org/wikipedia/en/b/b3/Training_Day_Poster.jpg",
+        },
+        {
+            "movie_name": "The Bourne Identity",
+            "year_released": "2002",
+            "director": "Doug Liman",
+            "url": {
+					"imdb": "http://www.imdb.com/title/tt0258463/?ref_=nv_sr_2",
+					"rottentomatoes": "http://www.rottentomatoes.com/m/bourne_identity/?search=bourne%20id",
+					"wiki": "https://en.wikipedia.org/wiki/The_Bourne_Identity_(2002_film)",
+					},
+            "genre": ["Action", "Mystery", "Thriller"],
+            "plot_summary": "A man is picked up by a fishing boat, bullet-riddled and suffering from amnesia, before racing to elude assassins and regain his memory.",
+            "movie_poster_url": "https://upload.wikimedia.org/wikipedia/en/a/ae/BourneIdentityfilm.jpg",
+        },
+		{
+			"movie_name": "Oldboy",
+			"year_released": "2003",
+			"director": "Chan-wook Park",
+			"url": {
+					"imdb": "http://www.imdb.com/title/tt0364569/",
+					"rottentomatoes": "http://www.rottentomatoes.com/m/oldboy/?search=oldbo",
+					"wiki": "https://en.wikipedia.org/wiki/Oldboy_(2003_film)",
+					},
+			"genre": ["Drama", "Mystery", "Thriller"],
+			"plot_summary": "After being kidnapped and imprisoned for 15 years, Oh Dae-Su is released, only to find that he must find his captor in 5 days.",
+			"movie_poster_url": "https://upload.wikimedia.org/wikipedia/en/6/67/Oldboykoreanposter.jpg",
+		},
+        {
+            "movie_name": "Man on Fire",
+            "year_released": "2004",
+            "director": "Tony Scott",
+            "url": {
+					"imdb": "http://www.imdb.com/title/tt0328107/?ref_=nv_sr_1",
+					"rottentomatoes": "http://www.rottentomatoes.com/m/man_on_fire/?search=man%20on%20fire",
+					"wiki": "https://en.wikipedia.org/wiki/Man_on_Fire_(2004_film)",
+					},
+            "genre": ["Action", "Crime", "Drama", "Thriller"],
+            "plot_summary": "In Mexico City, a former assassin swears vengeance on those who committed an unspeakable act against the family he was hired to protect.",
+            "movie_poster_url": "https://upload.wikimedia.org/wikipedia/en/e/e8/Man_on_fireposter.jpg",
+        },
+        {
+            "movie_name": "The Prestige",
+            "year_released": "2006",
+            "director": "Christopher Nolan",
+            "url": {
+					"imdb": "http://www.imdb.com/title/tt0482571/?ref_=nv_sr_1",
+					"rottentomatoes": "http://www.rottentomatoes.com/m/prestige/?search=the%20prestige",
+					"wiki": "https://en.wikipedia.org/wiki/The_Prestige_(film)",
+					},
+            "genre": ["Drama", "Mystery", "Thriller"],
+            "plot_summary": "Two stage magicians engage in competitive one-upmanship in an attempt to create the ultimate stage illusion.",
+            "movie_poster_url": "https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg",
+        },
+        {
+            "movie_name": "The Dark Knight",
+            "year_released": "2008",
+            "director": "Christopher Nolan",
+            "url": {
+					"imdb": "http://www.imdb.com/title/tt0468569/?ref_=nv_sr_1",
+					"rottentomatoes": "http://www.rottentomatoes.com/m/the_dark_knight/?search=the%20dark%20knight",
+					"wiki": "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)",
+					},
+            "genre": ["Action", "Crime", "Drama"],
+            "plot_summary": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
+            "movie_poster_url": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",
+        },
+		{
+			"movie_name": "RED",
+			"year_released": "2010",
+			"director": "Robert Schwentke",
+			"url": {
+					"imdb": "http://www.imdb.com/title/tt1245526/",
+					"rottentomatoes": "http://www.rottentomatoes.com/m/red/?search=red",
+					"wiki": "https://en.wikipedia.org/wiki/Red_(2010_film)",
+					},
+			"genre": ["Action", "Comedy", "Crime", "Thriller"],
+			"plot_summary": "When his peaceful life is threatened by a high-tech assassin, former black-ops agent Frank Moses reassembles his old team in a last ditch effort to survive and uncover his assailants.",
+			"movie_poster_url": "https://upload.wikimedia.org/wikipedia/en/4/41/Red_ver7.jpg",
+		},
+		{
+			"movie_name": "Inception",
+			"year_released": "2010",
+			"director": "Christopher Nolan",
+			"url": {
+					"imdb": "http://www.imdb.com/title/tt1375666/?ref_=nv_sr_1",
+					"rottentomatoes": "http://www.rottentomatoes.com/m/inception/?search=incep",
+					"wiki": "https://en.wikipedia.org/wiki/Inception",
+					},
+			"genre": ["Action", "Mystery", "Sci-Fi", "Thriller"],
+			"plot_summary": "A thief who steals corporate secrets through use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+			"movie_poster_url": "https://upload.wikimedia.org/wikipedia/en/7/7f/Inception_ver3.jpg",
+		},
+	]
+}
