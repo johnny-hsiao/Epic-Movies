@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAC4667D1B3CCF2700A7B7A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC4667C1B3CCF2700A7B7A2 /* main.m */; };
+		DAC466801B3CCF2700A7B7A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC4667F1B3CCF2700A7B7A2 /* AppDelegate.m */; };
+		DAC466831B3CCF2700A7B7A2 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC466821B3CCF2700A7B7A2 /* MasterViewController.m */; };
+		DAC466861B3CCF2700A7B7A2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC466851B3CCF2700A7B7A2 /* DetailViewController.m */; };
+		DAC466891B3CCF2700A7B7A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC466871B3CCF2700A7B7A2 /* Main.storyboard */; };
+		DAC4668B1B3CCF2700A7B7A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC4668A1B3CCF2700A7B7A2 /* Images.xcassets */; };
+		DAC4668E1B3CCF2700A7B7A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC4668C1B3CCF2700A7B7A2 /* LaunchScreen.xib */; };
+		DAC4669A1B3CCF2700A7B7A2 /* Epic_MoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC466991B3CCF2700A7B7A2 /* Epic_MoviesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAC466941B3CCF2700A7B7A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC4666F1B3CCF2600A7B7A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC466761B3CCF2700A7B7A2;
+			remoteInfo = "Epic Movies";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAC466771B3CCF2700A7B7A2 /* Epic Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Epic Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC4667B1B3CCF2700A7B7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC4667C1B3CCF2700A7B7A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAC4667E1B3CCF2700A7B7A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAC4667F1B3CCF2700A7B7A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAC466811B3CCF2700A7B7A2 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		DAC466821B3CCF2700A7B7A2 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		DAC466841B3CCF2700A7B7A2 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DAC466851B3CCF2700A7B7A2 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DAC466881B3CCF2700A7B7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAC4668A1B3CCF2700A7B7A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DAC4668D1B3CCF2700A7B7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DAC466931B3CCF2700A7B7A2 /* Epic MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Epic MoviesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC466981B3CCF2700A7B7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC466991B3CCF2700A7B7A2 /* Epic_MoviesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Epic_MoviesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC466741B3CCF2700A7B7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC466901B3CCF2700A7B7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC4666E1B3CCF2600A7B7A2 = {
+			isa = PBXGroup;
+			children = (
+				DAC466791B3CCF2700A7B7A2 /* Epic Movies */,
+				DAC466961B3CCF2700A7B7A2 /* Epic MoviesTests */,
+				DAC466781B3CCF2700A7B7A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAC466781B3CCF2700A7B7A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC466771B3CCF2700A7B7A2 /* Epic Movies.app */,
+				DAC466931B3CCF2700A7B7A2 /* Epic MoviesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC466791B3CCF2700A7B7A2 /* Epic Movies */ = {
+			isa = PBXGroup;
+			children = (
+				DAC4667E1B3CCF2700A7B7A2 /* AppDelegate.h */,
+				DAC4667F1B3CCF2700A7B7A2 /* AppDelegate.m */,
+				DAC466811B3CCF2700A7B7A2 /* MasterViewController.h */,
+				DAC466821B3CCF2700A7B7A2 /* MasterViewController.m */,
+				DAC466841B3CCF2700A7B7A2 /* DetailViewController.h */,
+				DAC466851B3CCF2700A7B7A2 /* DetailViewController.m */,
+				DAC466871B3CCF2700A7B7A2 /* Main.storyboard */,
+				DAC4668A1B3CCF2700A7B7A2 /* Images.xcassets */,
+				DAC4668C1B3CCF2700A7B7A2 /* LaunchScreen.xib */,
+				DAC4667A1B3CCF2700A7B7A2 /* Supporting Files */,
+			);
+			path = "Epic Movies";
+			sourceTree = "<group>";
+		};
+		DAC4667A1B3CCF2700A7B7A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAC4667B1B3CCF2700A7B7A2 /* Info.plist */,
+				DAC4667C1B3CCF2700A7B7A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAC466961B3CCF2700A7B7A2 /* Epic MoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC466991B3CCF2700A7B7A2 /* Epic_MoviesTests.m */,
+				DAC466971B3CCF2700A7B7A2 /* Supporting Files */,
+			);
+			path = "Epic MoviesTests";
+			sourceTree = "<group>";
+		};
+		DAC466971B3CCF2700A7B7A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAC466981B3CCF2700A7B7A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC466761B3CCF2700A7B7A2 /* Epic Movies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC4669D1B3CCF2700A7B7A2 /* Build configuration list for PBXNativeTarget "Epic Movies" */;
+			buildPhases = (
+				DAC466731B3CCF2700A7B7A2 /* Sources */,
+				DAC466741B3CCF2700A7B7A2 /* Frameworks */,
+				DAC466751B3CCF2700A7B7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Epic Movies";
+			productName = "Epic Movies";
+			productReference = DAC466771B3CCF2700A7B7A2 /* Epic Movies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAC466921B3CCF2700A7B7A2 /* Epic MoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC466A01B3CCF2700A7B7A2 /* Build configuration list for PBXNativeTarget "Epic MoviesTests" */;
+			buildPhases = (
+				DAC4668F1B3CCF2700A7B7A2 /* Sources */,
+				DAC466901B3CCF2700A7B7A2 /* Frameworks */,
+				DAC466911B3CCF2700A7B7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC466951B3CCF2700A7B7A2 /* PBXTargetDependency */,
+			);
+			name = "Epic MoviesTests";
+			productName = "Epic MoviesTests";
+			productReference = DAC466931B3CCF2700A7B7A2 /* Epic MoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAC4666F1B3CCF2600A7B7A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = cs2680;
+				TargetAttributes = {
+					DAC466761B3CCF2700A7B7A2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					DAC466921B3CCF2700A7B7A2 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = DAC466761B3CCF2700A7B7A2;
+					};
+				};
+			};
+			buildConfigurationList = DAC466721B3CCF2600A7B7A2 /* Build configuration list for PBXProject "Epic Movies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAC4666E1B3CCF2600A7B7A2;
+			productRefGroup = DAC466781B3CCF2700A7B7A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC466761B3CCF2700A7B7A2 /* Epic Movies */,
+				DAC466921B3CCF2700A7B7A2 /* Epic MoviesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAC466751B3CCF2700A7B7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC466891B3CCF2700A7B7A2 /* Main.storyboard in Resources */,
+				DAC4668E1B3CCF2700A7B7A2 /* LaunchScreen.xib in Resources */,
+				DAC4668B1B3CCF2700A7B7A2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC466911B3CCF2700A7B7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAC466731B3CCF2700A7B7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC466801B3CCF2700A7B7A2 /* AppDelegate.m in Sources */,
+				DAC466831B3CCF2700A7B7A2 /* MasterViewController.m in Sources */,
+				DAC4667D1B3CCF2700A7B7A2 /* main.m in Sources */,
+				DAC466861B3CCF2700A7B7A2 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC4668F1B3CCF2700A7B7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC4669A1B3CCF2700A7B7A2 /* Epic_MoviesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAC466951B3CCF2700A7B7A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC466761B3CCF2700A7B7A2 /* Epic Movies */;
+			targetProxy = DAC466941B3CCF2700A7B7A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAC466871B3CCF2700A7B7A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC466881B3CCF2700A7B7A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAC4668C1B3CCF2700A7B7A2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC4668D1B3CCF2700A7B7A2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAC4669B1B3CCF2700A7B7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DAC4669C1B3CCF2700A7B7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAC4669E1B3CCF2700A7B7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Epic Movies/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAC4669F1B3CCF2700A7B7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Epic Movies/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAC466A11B3CCF2700A7B7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Epic MoviesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Epic Movies.app/Epic Movies";
+			};
+			name = Debug;
+		};
+		DAC466A21B3CCF2700A7B7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Epic MoviesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Epic Movies.app/Epic Movies";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAC466721B3CCF2600A7B7A2 /* Build configuration list for PBXProject "Epic Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC4669B1B3CCF2700A7B7A2 /* Debug */,
+				DAC4669C1B3CCF2700A7B7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4669D1B3CCF2700A7B7A2 /* Build configuration list for PBXNativeTarget "Epic Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC4669E1B3CCF2700A7B7A2 /* Debug */,
+				DAC4669F1B3CCF2700A7B7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAC466A01B3CCF2700A7B7A2 /* Build configuration list for PBXNativeTarget "Epic MoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC466A11B3CCF2700A7B7A2 /* Debug */,
+				DAC466A21B3CCF2700A7B7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAC4666F1B3CCF2600A7B7A2 /* Project object */;
+}
