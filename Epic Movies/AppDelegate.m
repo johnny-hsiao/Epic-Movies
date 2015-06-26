@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  Epic Movies
 //
-//  Created by Shark on 2015-06-25.
+//  Created by Hung-en (Johnny) Hsiao on 2015-06-25.
 //  Copyright (c) 2015 cs2680. All rights reserved.
 //
 

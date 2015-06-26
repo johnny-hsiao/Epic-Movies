@@ -2,7 +2,7 @@
 //  DetailViewController.m
 //  Epic Movies
 //
-//  Created by Shark on 2015-06-25.
+//  Created by Hung-en (Johnny) Hsiao on 2015-06-25.
 //  Copyright (c) 2015 cs2680. All rights reserved.
 //
 
@@ -17,14 +17,6 @@
 
 @implementation DetailViewController
 
-#pragma mark - Managing the detail item
-
-//- (id) initWithData:(MovieObject *)movieData {
-//    self = [super init];
-//    data = movieData;
-//    return self;
-//}
-
 - (void)setDetailItem:(MovieObject*)newDetailItem {
     if (_detailItem != newDetailItem) {
         _detailItem = newDetailItem;
@@ -37,7 +29,8 @@
 - (void)configureView {
     // Update the user interface for the detail item.
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [NSString stringWithFormat:@"%@ (%@)", self.detailItem.movieName, self.detailItem.yearReleased];
+        // Assign values to labels
+        self.movieLabel.text = [NSString stringWithFormat:@"%@ (%@)", self.detailItem.movieName, self.detailItem.yearReleased];
         self.directorTV.text = [NSString stringWithFormat:@"Directed by: %@",self.detailItem.director];
         self.plotSummaryTV.text = [NSString stringWithFormat:@"Plot Summary: %@",self.detailItem.plotSummary];
         
@@ -47,6 +40,8 @@
             genreString = [NSString stringWithFormat:@"%@, %@", genreString, genre[i]];
         }
         self.genreTV.text = [NSString stringWithFormat:@"Genre: %@",genreString];
+        
+        // Customize labels
         self.genreTV.textColor = [UIColor whiteColor];
         self.directorTV.textColor = [UIColor whiteColor];
         self.plotSummaryTV.textColor = [UIColor whiteColor];
@@ -56,12 +51,11 @@
         [APIManager getImageData:imageURLString completionBlock:^(NSData *imageData) {
            dispatch_async(dispatch_get_main_queue(), ^{
                UIImage* image = [UIImage imageWithData:imageData];
-               self.posterImage.image
-               = image;
+               self.posterImage.image = image;
            });
         }];
         
-        // Request url for webv view
+        // Request url for web view
         NSString* urlString = (NSString*)self.detailItem.wikiURL;
         NSURL* url = [NSURL URLWithString:urlString];
         NSURLRequest* request = [NSURLRequest requestWithURL:url];
@@ -73,7 +67,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self configureView];
-    
 }
 
 - (void)didReceiveMemoryWarning {

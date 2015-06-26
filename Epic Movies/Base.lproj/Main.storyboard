@@ -34,10 +34,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Movie Name" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="0XM-y9-sOw">
-                                <rect key="frame" x="208" y="94" width="400" height="25"/>
+                                <rect key="frame" x="208" y="94" width="400" height="38"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="25" id="MXt-Mt-UZr"/>
+                                    <constraint firstAttribute="height" constant="38" id="MXt-Mt-UZr"/>
                                     <constraint firstAttribute="width" constant="400" id="qcc-zo-4PL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
@@ -70,10 +70,10 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Plot Summary: " selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaz-2c-L7C">
-                                <rect key="frame" x="203" y="187" width="381" height="128"/>
+                                <rect key="frame" x="203" y="187" width="381" height="105"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="QOC-2C-WAu"/>
+                                    <constraint firstAttribute="height" constant="105" id="QOC-2C-WAu"/>
                                     <constraint firstAttribute="width" constant="381" id="qjn-b9-XoT"/>
                                 </constraints>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -95,7 +95,7 @@
                             <constraint firstItem="9Uz-XR-hUZ" firstAttribute="leading" secondItem="teD-vr-f91" secondAttribute="trailing" constant="16" id="EfZ-fz-ada"/>
                             <constraint firstItem="gaz-2c-L7C" firstAttribute="leading" secondItem="teD-vr-f91" secondAttribute="trailing" constant="16" id="HvS-VH-0ci"/>
                             <constraint firstItem="gaz-2c-L7C" firstAttribute="leading" secondItem="teD-vr-f91" secondAttribute="trailing" constant="16" id="Qdl-sa-OSp"/>
-                            <constraint firstItem="xOG-3Y-qZS" firstAttribute="top" secondItem="0XM-y9-sOw" secondAttribute="bottom" constant="15" id="Wtk-ns-dBB"/>
+                            <constraint firstItem="xOG-3Y-qZS" firstAttribute="top" secondItem="0XM-y9-sOw" secondAttribute="bottom" constant="2" id="Wtk-ns-dBB"/>
                             <constraint firstItem="gaz-2c-L7C" firstAttribute="top" secondItem="9Uz-XR-hUZ" secondAttribute="bottom" constant="-7" id="ZcW-ch-PLa"/>
                             <constraint firstItem="xOG-3Y-qZS" firstAttribute="leading" secondItem="teD-vr-f91" secondAttribute="trailing" constant="16" id="hDu-zU-SHV"/>
                             <constraint firstItem="woO-r2-HZd" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leadingMargin" constant="-20" id="nup-rK-jpg"/>
@@ -111,9 +111,9 @@
                         <barButtonItem key="backBarButtonItem" title="Movies" id="Irs-wE-LBr"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="detailDescriptionLabel" destination="0XM-y9-sOw" id="deQ-Na-JPF"/>
                         <outlet property="directorTV" destination="xOG-3Y-qZS" id="pUB-Ym-z1f"/>
                         <outlet property="genreTV" destination="9Uz-XR-hUZ" id="Wwr-5r-HIG"/>
+                        <outlet property="movieLabel" destination="0XM-y9-sOw" id="67q-Ag-fV6"/>
                         <outlet property="plotSummaryTV" destination="gaz-2c-L7C" id="aRU-gB-uAg"/>
                         <outlet property="posterImage" destination="teD-vr-f91" id="YKY-5i-72b"/>
                         <outlet property="webView" destination="woO-r2-HZd" id="PeH-ES-MT2"/>

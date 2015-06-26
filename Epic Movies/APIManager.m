@@ -2,7 +2,7 @@
 //  APIManager.m
 //  Epic Movies
 //
-//  Created by Shark on 2015-06-26.
+//  Created by Hung-en (Johnny) Hsiao on 2015-06-26.
 //  Copyright (c) 2015 cs2680. All rights reserved.
 //
 

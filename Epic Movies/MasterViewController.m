@@ -2,7 +2,7 @@
 //  MasterViewController.m
 //  Epic Movies
 //
-//  Created by Shark on 2015-06-25.
+//  Created by Hung-en (Johnny) Hsiao on 2015-06-25.
 //  Copyright (c) 2015 cs2680. All rights reserved.
 //
 
@@ -30,6 +30,7 @@
 
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     
+    // Get data from epicmovies.json
     NSString* filePath = [[NSBundle mainBundle] pathForResource:@"epicmovies" ofType:@"json"];
     NSData* data = [NSData dataWithContentsOfFile:filePath];
     
@@ -42,6 +43,7 @@
             [self.movieObjects addObject:movie];
         }
     }
+    
     // Start the app with the first movie cell selected and displayed
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
     [self.tableView selectRowAtIndexPath:indexPath animated:true scrollPosition:UITableViewScrollPositionBottom];

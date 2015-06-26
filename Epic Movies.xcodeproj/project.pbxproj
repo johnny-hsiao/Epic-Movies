@@ -101,12 +101,7 @@
 				DAC466DB1B3D1E8D00A7B7A2 /* APIManager */,
 				DAC4667E1B3CCF2700A7B7A2 /* AppDelegate.h */,
 				DAC4667F1B3CCF2700A7B7A2 /* AppDelegate.m */,
-				DAC466D51B3CE53000A7B7A2 /* MovieObject.h */,
-				DAC466D61B3CE53000A7B7A2 /* MovieObject.m */,
-				DAC466811B3CCF2700A7B7A2 /* MasterViewController.h */,
-				DAC466821B3CCF2700A7B7A2 /* MasterViewController.m */,
-				DAC466841B3CCF2700A7B7A2 /* DetailViewController.h */,
-				DAC466851B3CCF2700A7B7A2 /* DetailViewController.m */,
+				DAC466F01B3DB50E00A7B7A2 /* Controllers */,
 				DAC466871B3CCF2700A7B7A2 /* Main.storyboard */,
 				DAC4668A1B3CCF2700A7B7A2 /* Images.xcassets */,
 				DAC4668C1B3CCF2700A7B7A2 /* LaunchScreen.xib */,
@@ -165,6 +160,19 @@
 				DAC466EC1B3DA56100A7B7A2 /* moviecamera152x152.png */,
 			);
 			name = "App Images";
+			sourceTree = "<group>";
+		};
+		DAC466F01B3DB50E00A7B7A2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAC466D51B3CE53000A7B7A2 /* MovieObject.h */,
+				DAC466D61B3CE53000A7B7A2 /* MovieObject.m */,
+				DAC466811B3CCF2700A7B7A2 /* MasterViewController.h */,
+				DAC466821B3CCF2700A7B7A2 /* MasterViewController.m */,
+				DAC466841B3CCF2700A7B7A2 /* DetailViewController.h */,
+				DAC466851B3CCF2700A7B7A2 /* DetailViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

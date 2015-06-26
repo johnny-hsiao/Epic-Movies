@@ -2,7 +2,7 @@
 //  MovieObject.m
 //  Epic Movies
 //
-//  Created by Shark on 2015-06-25.
+//  Created by Hung-en (Johnny) Hsiao on 2015-06-25.
 //  Copyright (c) 2015 cs2680. All rights reserved.
 //
 
@@ -13,6 +13,7 @@
 - (id) initWithMovie:(NSDictionary *)dict {
     self = [super init];
     if (self != nil) {
+        // Parse dictionary
         self.movieName = dict[@"movie_name"];
         self.yearReleased = dict[@"year_released"];
         self.director = dict[@"director"];

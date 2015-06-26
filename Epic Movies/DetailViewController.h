@@ -2,7 +2,7 @@
 //  DetailViewController.h
 //  Epic Movies
 //
-//  Created by Shark on 2015-06-25.
+//  Created by Hung-en (Johnny) Hsiao on 2015-06-25.
 //  Copyright (c) 2015 cs2680. All rights reserved.
 //
 
@@ -12,12 +12,14 @@
 @interface DetailViewController : UIViewController 
 
 @property (strong, nonatomic) MovieObject* detailItem;
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+// Labels and Text views
+@property (weak, nonatomic) IBOutlet UILabel *movieLabel;
 @property (weak, nonatomic) IBOutlet UITextView *directorTV;
 @property (weak, nonatomic) IBOutlet UITextView *genreTV;
 @property (weak, nonatomic) IBOutlet UITextView *plotSummaryTV;
 
-//- (id) initWithData:(MovieObject*) movieData;
+// Image and Web view
 @property (weak, nonatomic) IBOutlet UIImageView *posterImage;
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 
